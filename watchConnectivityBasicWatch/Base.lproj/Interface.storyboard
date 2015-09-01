@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watchConnectivityBasicWatch" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="unlockAfterReboot" id="sD2-55-gVv">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label alignment="left" text="Label" id="3X6-lP-8MZ"/>
+                        <label alignment="left" text="reachability" id="O9L-TH-Ww9"/>
+                        <label alignment="left" text="Label" id="tzl-Hw-K0o"/>
+                    </items>
+                    <connections>
+                        <outlet property="reachabilityLabel" destination="tzl-Hw-K0o" id="QhE-Zw-67E"/>
+                        <outlet property="unlockAfterRebootLabel" destination="3X6-lP-8MZ" id="NaF-6m-g61"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
